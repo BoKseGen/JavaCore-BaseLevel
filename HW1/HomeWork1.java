@@ -8,10 +8,7 @@ public class HomeWork1 {
         return a * (b + ((float)c / d));
 
     }
-
-
-
-
+    
     public static void main(String[] args){
 
         int a = 16;
