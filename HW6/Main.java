@@ -70,7 +70,7 @@ public class Main {
         try {
 
             String wordToSearch = input.readLine();
-            if(isFileHaveWord(wordToSearch)){
+            if(isFileHasWord(wordToSearch)){
                 System.out.println("Данное слово есть в файле.");
             } else {
                 System.out.println("Такого слова нет в файле");
@@ -82,7 +82,7 @@ public class Main {
 
     }
 
-    public static boolean isFileHaveWord(String wordToSearch){
+    public static boolean isFileHasWord(String wordToSearch){
         try{
             FileInputStream fis = new FileInputStream("file3.txt");
             BufferedReader reader = new BufferedReader(new InputStreamReader(fis));
@@ -99,11 +99,6 @@ public class Main {
                     }
                 }
             }
-//            String str;
-//            while((str=reader.readLine()) != null){
-//                if(((String)str).equals(wordToSearch))
-//                    return true;
-//            }
 
         } catch (IOException exception){
             exception.printStackTrace();
