@@ -1,4 +1,7 @@
 package myWork;
+/*
+ * By Ksenia Bondar
+ * */
 import sun.applet.Main;
 
 import javax.swing.*;
