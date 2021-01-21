@@ -1,3 +1,4 @@
+package myWork;
 import sun.applet.Main;
 
 import javax.swing.*;
